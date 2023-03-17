@@ -1,0 +1,11 @@
+// SOAL NOMOR 7
+function bandingBilangan(a, b) {
+  if (a === b) {
+    return a + " sama dengan " + b;
+  } else if (a > b) {
+    return a + " lebih besar dari " + b;
+  } else {
+    return a + " lebih kecil dari " + b;
+  }
+}
+console.log(bandingBilangan(9, 10));
